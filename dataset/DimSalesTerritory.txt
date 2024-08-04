@@ -1,0 +1,6 @@
+---  I DON'T THINK THIS DATASET IS USED ANYWHERE EITHER  ---
+
+
+Deleted column SalesTerritoryAlternateKey
+
+Replaced NA with آمریکای شمالی in Persian sales territory region column

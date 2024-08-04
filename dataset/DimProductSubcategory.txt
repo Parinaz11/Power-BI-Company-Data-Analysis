@@ -1,0 +1,2 @@
+removed column ProductSubcategoryAlternatekey
+removed the English words from the PersianProductSubcategoryName field

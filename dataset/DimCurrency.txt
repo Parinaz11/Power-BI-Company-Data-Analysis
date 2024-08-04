@@ -1,0 +1,6 @@
+CurrentKey: an index that works as a primay key for each currency
+*CurrencyAlternateKey: each currency is uniquely identified by these global three-letter currency codes
+CurrencyName: English names of the currency
+PersianCurrencyName: Persian names with some of them being English (mistach in entries & needs cleaning)
+
+~ solution: can say totally omit all the english words in this column so that there would only remain null and persian. (And then maybe proceed to show the english names for null ones)

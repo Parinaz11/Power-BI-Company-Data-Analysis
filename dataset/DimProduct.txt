@@ -1,0 +1,29 @@
+changed EndDate and made all the NULL values change to Current and deleted the Status column so that there would be one less column
+
+ProductSubcategory: Indicates the group number
+WeightUnitMeasureCode: G is likely grams, LB is for pounds
+SizeUnitMeasureCode: CM stands for centimeters and NULL means not specified
+FinishedGoodsFlag: Indicating whether the product is finished or in the process of production
+
+SafetyStockLevel: Min quantity of stock (Stock, also used as a synonym of inventory, refers to all or the quantity of products that a company has stored.) that we should have in order to avoid stockouts (occurs when customer orders for a product exceed the amount of inventory that is available on hand.). So it represents a buffer quantity to ensure the product is always available.
+
+ReorderPoint: This is hte inventory level at which a new order should be placed to replenish stock before it runs out.
+
+SizeRange: NA stands for Not Applicable. The clothing that basically have to size.
+DaysToManufacture: The number of days required to manufacture (make) the product
+ProductLine(!): M = Mountain, R = Road,  S = Standard, T = Touring, NULL = not assigned
+
+ListPrice: The manufacturer's suggested retail price (MSRP) (that original price that was meant to be sold by that amount)
+DealerPrice: The price at which the product is sold to dealers or retailers, often at a discound from the list price
+
+Class(!): they represent the product quality or category classifications, H=High, M=Medium, L=Low, NULL=not classified
+
+StartDate: The day the product became available or was introduced to the market
+EndDate: The day the product is not longer available and is discountinued. Current indicates that the product is still availble
+
+Style:
+M: Male or Men's (often used in datasets related to clothing, demographics, or customer information).
+U: Unisex or Undefined (could be used in various contexts to indicate items or data points that are not specific to a single gender or category).
+W: Female or Women's (commonly used in datasets related to clothing, demographics, or customer information).
+
+

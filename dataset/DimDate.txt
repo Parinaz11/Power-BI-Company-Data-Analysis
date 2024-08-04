@@ -1,0 +1,20 @@
+Explanations:
+CalendarQuarter: Refers to the quarter of the calendar year. A calendar year is typically divided into four quarters:
+Q1: January 1 - March 31
+Q2: April 1 - June 30
+Q3: July 1 - September 30
+Q4: October 1 - December 31
+In your dataset, 1 indicates the first quarter of the calendar year.
+
+FiscalQuarter: Refers to the quarter of the fiscal year. A fiscal year is a 12-month period used for financial reporting and can start on any date depending on the organization. The fiscal quarters are usually:
+Q1: First three months of the fiscal year
+Q2: Second three months
+Q3: Third three months
+Q4: Fourth three months
+In your dataset, 3 indicates the third quarter of the fiscal year.
+
+FiscalSemester: Refers to a six-month period within the fiscal year. There are typically two semesters in a fiscal year:
+Semester 1: First six months of the fiscal year
+Semester 2: Last six months of the fiscal year
+
+~Removed Columns: DayNumberofWeek, DayNumberOfMonth, DayNumberOfYear, WeekNumberOfYear,MonthNumberOfYear

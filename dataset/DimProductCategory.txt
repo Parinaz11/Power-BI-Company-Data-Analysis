@@ -1,0 +1,1 @@
+deleted ProductCategoryAlternateKey cause it was the same as ProductCategoryKey

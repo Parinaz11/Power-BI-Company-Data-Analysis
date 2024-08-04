@@ -1,0 +1,40 @@
+CustomerKey: a unique id for each customer (I think it's a foreign key in database factInternetSales)
+GeographyKey: A foreign key which links to the DimSalesTerritory database I guess (contains location info of customer)
+CustomerAlternateKey: an alternate id for customer (foreign key I guess) but don't know for which database
+~ I removed it (the column)
+Title: Mr. and Ms.
+~ I removed the column cause we also had Gender column and did the same thing 
+FirstName & MiddleName & LastName:
+~ I concatenated them into a single column (with space in between and the ones with NULL in their names replaced them with "")
+then proceeded to delete all the three columns (into Name column)
+Gender & MaritalStatus:
+~ replaced M and F with male and female so that it concatenates with Marital Status into a single column of Status
+
+EnglishEducation: This column lists the education levels or qualifications in English. Examples include:
+bachelors: Refers to a bachelor's degree, indicating a higher education qualification.
+partial College: Indicates some college-level education but not completed.
+high School: Indicates completion of secondary education.
+partial High School: Refers to some level of high school education that is not completed.
+
+SpanishEducation: This column provides the same educational qualifications as in the EnglishEducation column but in Spanish. For example:
+licenciatura: Equivalent to a bachelor's degree in English.
+estudios universitarios (en curso): Means "University studies in progress," similar to "Partial College."
+educación secundaria: Refers to secondary education or high school.
+
+FrenchEducation: This column represents the educational qualifications in French. For instance:
+bac + 4: Refers to a bachelor's degree or equivalent (4 years after the Baccalauréat).
+baccalauréat: Equivalent to high school graduation in English.
+niveau bac: Refers to a level equivalent to the Baccalauréat.
+
+EnglishOccupation: This column describes job titles or occupations in English. Examples include:
+Professional: A general term for a professional occupation, often requiring specialized education.
+Management: Indicates a role in management or supervisory capacity.
+Skilled Manual: Refers to a manual labor job requiring specialized skills.
+Clerical occupations involve tasks related to office administration, record-keeping, and general support functions within an organization.
+Manual occupations involve physical work that often requires hands-on tasks and the use of manual tools or machinery.
+
+AddressLine1 & AddressLine2:
+~ concatenated together into column AddressLine with a comma separating them
+
+
+

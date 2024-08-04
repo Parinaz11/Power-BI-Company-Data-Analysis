@@ -1,0 +1,26 @@
+!! --- IT LOOKS LIKE THERE'S NO TABLE THAT USES THIS ONE --- !!
+
+~ maybe I can guess the PersianPromotion based on the Percentage column (made it based on the DiscountPct) and replaced the NULL valies in PersianPromotionName with it
+
+~ removed promotion alternate key
+
+* separated the date and time from the dates
+
+
+It appears that the dataset is related to promotions or discount schemes
+
+DiscountPct: This likely represents the percentage discount offered for certain products or purchases. It could be a discount given to customers or retailers, or it could be related to some pricing scheme. The percentage might also indicate the level of promotion or discount provided.
+
+EnglishPromotionType: This field categorizes the type of promotion or discount being applied. The values suggest different types of promotional strategies:
+No Discount: NO promotion or discount is applied.
+Volume Discount:A discount applied based on the volume or quantity of products purchased.
+Discontinued Product:A discount for products that are being discontinued.
+Seasonal Discount: Discounts applied during specific seasons or holidays.
+Excess Inventory: Discounts offered to clear out excess inventory.
+New Product: Discounts applied to encourage the purchase of new products
+
+StartDate and EndDate: start and end of the duration of the promotion or discount period
+
+MinQty: The minimum quantity required for the discount or promotion. For example, if MinQty is 15, a discount might only apply if the purchase quantity is 15 or more.
+
+MaxQty: This stands for the maximum quantity for which the discount or promotion is applicable. For instance, if MaxQty is 24, the discount applies to purchases between MinQty and MaxQty (e.g., between 15 and 24 units).
