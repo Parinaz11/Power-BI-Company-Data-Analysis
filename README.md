@@ -85,3 +85,4 @@ The dashboard uses the following datasets:
      - **Columns**: [EnglishMonthName]
      - **Values**: [DateKey] (Count)
 
+![dataset relations](https://github.com/user-attachments/assets/e3a072f6-210e-4d94-8e41-77e65b4a37e8)
